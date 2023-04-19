@@ -22,6 +22,6 @@ This is an example React To-Do application using a [DataStax Astra](https://dtsx
 * Provide a fullstack development example using Astra DB as the storage backend
 
 ## How this works
-Once the Astra DB credentials are provided, the necessary tables are created in the database. The webservice will be available on port 8888 once the application has been deployed.
+Once the Astra DB credentials are provided, the necessary tables are created in the database. The webservice will be available on port 8888 once the application has been deployed (_Note_: ignore the message about a service being available on port 3000, what you are looking for is at an URL starting with `https://8888-...`).
 
 [JAMstack](https://jamstack.org/) is a big leap forward in how we can write web applications that are easy to write, deploy, scale, and also maintain. Using this approach means that newly created content is rendered from a content API, while a static render of it is being built into the site for future.
